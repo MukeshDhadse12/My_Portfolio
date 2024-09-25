@@ -31,7 +31,13 @@
         <a class="navbar-brand" href="index.html"><img src="images/new_logo-removebg-preview.png" /> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <div class="hamburger-toggle">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
@@ -346,6 +352,24 @@
   </div>
 
   <!--Footer End-->
+
+  <!-- Toggler-Nav Js-->
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function(event) {
+    
+    // Hamburger menu
+    var navbarToggler = document.querySelectorAll('.navbar-toggler')[0];
+    navbarToggler.addEventListener('click', function(e) {
+      e.target.children[0].classList.toggle('active');
+    });
+    
+    // Select the <html> element
+    
+    });
+    
+    </script>
+
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
