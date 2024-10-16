@@ -702,14 +702,14 @@ transform: translateY(-5px);
 }
 /* Project Section */
 #project{
-   padding: 30px 0;
-   margin-left: 34px;
+   
 }
+
+
 /* Contact Me Section */
 #contact{
    padding: 50px 0;
    color: #0A306F;
-   margin-left: 100px;
 }
 .contact-col-2{
    flex-basis: 100%;
