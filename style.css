@@ -723,6 +723,51 @@ transform: translateY(-5px);
 }
 }
 
+/* For tablet Size */
 
+
+
+@media (max-width: 768px ){
+
+
+/* about section */
+#about{
+   padding: 40px 0;
+   color: #0A306F;
+   background-color: transparent;
+   margin: 32px;
+}
+
+ .about-col-2{
+   flex-basis: 100%;
+}
+.about-col-1{
+   display: none;
+   margin-bottom: 30px;
+}
+.about-col-2{
+   font-size: 14px;
+}
+
+
+/* Contact Section */
+
+   #contact{
+      padding: 50px 0;
+      color: #0A306F;
+   }
+   .contact-col-2{
+      flex-basis: 100%;
+   }
+   .contact-col-1{
+      display: none;
+      margin-bottom: 30px;
+   }
+   .contact-col-2{
+      font-size: 14px;
+   }
+   }
+
+}
 
 
